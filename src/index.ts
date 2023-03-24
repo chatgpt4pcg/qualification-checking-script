@@ -1,4 +1,4 @@
-import { appendLog, createLogFolder, createOutputFolder, listAllDirs, listAllFiles, listCharactersDirs } from './file-utils';
+import { appendLog, createLogFolder, listAllFiles } from './file-utils';
 import { containDisallowedCharacters, containObjectTokens, countWords } from 'chatgpt4pcg';
 
 import fs from 'fs'
