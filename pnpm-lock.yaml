@@ -1,28 +1,26 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/minimist': ^1.2.2
-  '@types/node': ^18.15.5
+  '@types/node': ^18.15.10
   chatgpt4pcg: ^1.2.0
+  chatgpt4pcg-node: ^1.0.1
   eslint: ^8.36.0
-  minimist: ^1.2.8
-  nodemon: ^2.0.21
-  rimraf: ^4.4.0
+  nodemon: ^2.0.22
+  rimraf: ^4.4.1
   ts-node: ^10.9.1
   typescript: ^5.0.2
 
 dependencies:
   chatgpt4pcg: 1.2.0
-  minimist: 1.2.8
+  chatgpt4pcg-node: 1.0.1
   typescript: 5.0.2
 
 devDependencies:
-  '@types/minimist': 1.2.2
-  '@types/node': 18.15.6
+  '@types/node': 18.15.10
   eslint: 8.36.0
   nodemon: 2.0.22
   rimraf: 4.4.1
-  ts-node: 10.9.1_scf5ll4phrufleolbwuhaaa4ae
+  ts-node: 10.9.1_zd7fjxbseldtiwc6h6ujrbvxuy
 
 packages:
 
@@ -33,8 +31,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@eslint-community/eslint-utils/4.3.0_eslint@8.36.0:
-    resolution: {integrity: sha512-v3oplH6FYCULtFuCeqyuTd9D2WKO937Dxdq+GmHOLL72TTRriLxz2VLlNfkZRsvj6PKnOPAtuT6dwrs/pA5DvA==}
+  /@eslint-community/eslint-utils/4.4.0_eslint@8.36.0:
+    resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
@@ -143,12 +141,8 @@ packages:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
 
-  /@types/minimist/1.2.2:
-    resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
-    dev: true
-
-  /@types/node/18.15.6:
-    resolution: {integrity: sha512-YErOafCZpK4g+Rp3Q/PBgZNAsWKGunQTm9FA3/Pbcm0VCriTEzcrutQ/SxSc0rytAp0NoFWue669jmKhEtd0sA==}
+  /@types/node/18.15.10:
+    resolution: {integrity: sha512-9avDaQJczATcXgfmMAW3MIWArOO7A+m90vuCFLr8AotWf8igO/mRoYukrk2cqZVtv38tHs33retzHEilM7FpeQ==}
     dev: true
 
   /abbrev/1.1.1:
@@ -256,6 +250,12 @@ packages:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
     dev: true
+
+  /chatgpt4pcg-node/1.0.1:
+    resolution: {integrity: sha512-yBw03Is5LGOApw481wFNZ/gZ8rna+OSAORaj0faKrFrmgoTQukh8S4paReJMhV2eCuufgWu7ofbcPfB0dagwng==}
+    dependencies:
+      minimist: 1.2.8
+    dev: false
 
   /chatgpt4pcg/1.2.0:
     resolution: {integrity: sha512-BsoPL49ftWTjZ8PqGSCSjBDqNtbORmrPPshXQi7QCYN5R8ocBCrzZAzveZg7kOncR7lby7ZA+9zG03jgvUvBJw==}
@@ -370,7 +370,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@eslint-community/eslint-utils': 4.3.0_eslint@8.36.0
+      '@eslint-community/eslint-utils': 4.4.0_eslint@8.36.0
       '@eslint-community/regexpp': 4.4.1
       '@eslint/eslintrc': 2.0.1
       '@eslint/js': 8.36.0
@@ -939,7 +939,7 @@ packages:
       nopt: 1.0.10
     dev: true
 
-  /ts-node/10.9.1_scf5ll4phrufleolbwuhaaa4ae:
+  /ts-node/10.9.1_zd7fjxbseldtiwc6h6ujrbvxuy:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -958,7 +958,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.15.6
+      '@types/node': 18.15.10
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3

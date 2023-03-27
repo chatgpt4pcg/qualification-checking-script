@@ -16,3 +16,11 @@ To use this script, you must have <a href="https://nodejs.org/en/" target="_new"
 2. The script will output the copied of original file if passed the qualification in `../<SOURCE_FOLDER>/qualified` folder, which has the same structure as the source folder. The file `qualification_log_<DATE_TIME>.txt` will be created in the `../<SOURCE_FOLDER>/qualified/logs` folder.
 
 Please ensure that the source folder contains only text files.
+
+## Contributing
+
+If you would like to contribute to this project, please fork this repository and submit a pull request. Please ensure that your code is well documented and that you have tested your code before submitting a pull request.
+
+## Bug Reporting
+
+If you find any bugs, please submit an issue on this repository.
